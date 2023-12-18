@@ -308,8 +308,8 @@ document.getElementById("historyAccordionHeader").innerText = "History (last "+n
 
 if (adafruitIOUsername == "" || adafruitIOFeedname == ""){ // if username or feedname are blank, check query parameters for the information
   urlParams = new URLSearchParams(window.location.search)
-  adafruitIOUsername = urlParams.get("adafruitIOUsername")
-  adafruitIOFeedname = urlParams.get("adafruitIOFeedname")
+  adafruitIOUsername = urlParams.get("u")
+  adafruitIOFeedname = urlParams.get("f")
 }
 
 showLoadingSpinner(true)
