@@ -21,6 +21,10 @@ html {
   display: none;
 }
 
+.bb-region-2 rect {
+  fill:rgb(226, 211, 45); 
+}
+
 .bb-region-1 rect {
   fill:rgba(180, 70, 70, 1); 
 }
